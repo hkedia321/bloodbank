@@ -1,0 +1,37 @@
+.logoimg{
+  width: 100% !important;
+}
+label,input{
+  vertical-align: middle;
+}
+.modal-content{
+  background-color: #f2f2f2;
+}
+.modal-title{
+  color: #000;
+}
+.required{
+  color: red;
+}
+.color-red{
+  color: red;
+}
+/* make sidebar nav vertical */ 
+@media (min-width: 768px) {
+  .sidebar-nav .navbar .navbar-collapse {
+    padding: 0;
+    max-height: none;
+  }
+  .sidebar-nav .navbar ul {
+    float: none;
+    display: block;
+  }
+  .sidebar-nav .navbar li {
+    float: none;
+    display: block;
+  }
+  .sidebar-nav .navbar li a {
+    padding-top: 12px;
+    padding-bottom: 12px;
+  }
+}
